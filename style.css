@@ -16,6 +16,8 @@ h1.profile-name {
 nav ul {
     padding: 0;
     overflow: hidden;
+    white-space: nowrap;
+    overflow-x: auto;
 
   }
 h1 {
@@ -36,6 +38,7 @@ nav a {
 }
 a {
     color: #258cdb;
+    text-decoration: none;
 }
 
 a:hover {
