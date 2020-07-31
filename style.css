@@ -1,0 +1,15 @@
+body {
+    padding: 20px;
+    font-size: 16px;
+}
+.header {
+    text-align: center;
+}.profile {
+    width : 150px;
+}
+h1.profile-name {
+    margin-top: 5px;
+    font-size: 36px;
+}
+
+
