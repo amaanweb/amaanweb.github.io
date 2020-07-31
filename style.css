@@ -1,6 +1,7 @@
 body {
     padding: 20px;
     font-size: 16px;
+    font-family: 'Lato', sans-serif;
 }
 header {
     text-align: center;
@@ -17,7 +18,9 @@ nav ul {
     overflow: hidden;
 
   }
-
+h1 {
+    font-size: 28px;
+}
 nav li {
     display: inline-block;
 
