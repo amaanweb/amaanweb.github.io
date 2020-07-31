@@ -6,6 +6,7 @@ body {
 header {
     text-align: center;
 }
+
 .profile {
     width : 150px;
 }
@@ -50,4 +51,33 @@ a:hover {
     max-width: 700px;
     margin-left: auto;
     margin-right: auto;
+    
+}
+footer{
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    color: #fff;
+    padding: 5px;
+    background-color: black;
+}
+
+
+
+footer ul {
+    padding: 0;
+    overflow: hidden;
+    white-space: nowrap;
+    overflow-x: auto;
+  }
+
+footer  li {
+    display: inline-block;
+}
+
+footer a {
+    text-decoration: none;
+    padding: .5em 1em;
+    color: white;
 }
