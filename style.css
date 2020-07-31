@@ -2,7 +2,7 @@ body {
     padding: 20px;
     font-size: 16px;
 }
-.header {
+header {
     text-align: center;
 }.profile {
     width : 150px;
@@ -11,5 +11,45 @@ h1.profile-name {
     margin-top: 5px;
     font-size: 36px;
 }
+nav {
+    align-items: center;
+}
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    position: relative;
 
+  }
 
+nav li {
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+    position: relative;
+    zoom: 1;
+    vertical-align: middle;
+    position: relative;
+    list-style: none;
+}
+
+nav a {
+    text-decoration: none;
+    padding: .5em 1em;
+    color: #777;
+    white-space: nowrap;
+    background-color: transparent;
+
+}
+a {
+    #258cdb;
+}
+
+a:hover {
+    color: #2571db;
+    outline: 0;
+}
+a:active {
+    outline: 0;
+}
