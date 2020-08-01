@@ -118,3 +118,7 @@ footer a:hover {
     color: #2571db;
     background-color: white;
 }
+
+nav .current {
+    color: #2571db ;
+}
